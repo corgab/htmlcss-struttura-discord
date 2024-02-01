@@ -22,6 +22,22 @@
     flex-direction: row-reverse;
 }
 
+.col-15{
+    width: 10%;
+    align-items: stretch;
+}
+
+
+.col-30{
+    width: 30%;
+}
+
+.col-40{
+    width: 150px;
+    height: 200px;
+    align-items: stretch;
+}
+
 
 /* HEADER*/
 
@@ -39,11 +55,11 @@ header{
 
 /* MAIN */
 
-.background-blue{
+.bg-blue{
     background-color: blue;
 }
 
-.background-gray{
+.bg-gray{
     background-color: gray;
 }
 
@@ -64,15 +80,16 @@ header{
     background-color: black;
 }
 
-.pink-col{
-    width: 200px;
-    height: 200px;
+.bg-pink{
     background-color: pink;
 }
 
-.green-col{
+.col-100{
     width: 500px;
     height: 500px;
+}
+
+.bg-greenlight{
     background-color: greenyellow;
 }
 
@@ -82,24 +99,15 @@ header{
     background-color: black;
 }
 
-.red-col{
+.bg-red{
     background-color: red;
-    width: 150px;
-    height: 200px;
-    align-items: stretch;
 }
 
-.col{
+.bg-green{
     background-color: green;
-    width: 100px;
-    height: 200px;
-    align-items: stretch;
 }
 
 .footer-bar{
     justify-content: space-between;
     background-color: aquamarine;
 }
-
-
-
