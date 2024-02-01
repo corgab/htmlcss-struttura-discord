@@ -4,19 +4,24 @@
     box-sizing: border-box;
 }
 
-/* DEBUG */
 
 .container{
     max-width: 1000px;
     margin: 0 auto;
-    border: 2px solid red;
     padding: 10px;
 }
 
-.raw{
+.row{
     display: flex;
     padding: 10px;
 }
+
+.row-reverse{
+    display: flex;
+    padding: 10px;
+    flex-direction: row-reverse;
+}
+
 
 /* HEADER*/
 
@@ -32,19 +37,69 @@ header{
     background-color: aquamarine;
 }
 
-/* MAIN
+/* MAIN */
 
-.fist-section{
-    margin: 20px 100px;
+.background-blue{
     background-color: blue;
 }
 
-.initial{
-    align-items: center;
+.background-gray{
+    background-color: gray;
+}
+
+.center-content{
+    align-content: center;
     justify-content: center;
 }
 
-.initial-item{
-    color: pink;
-} */
+.hero-col{
+    background-color: pink;
+    height: 200px;
+    width: 500px;
+}
+
+.black-col{
+    width: 500px;
+    height: 200px;
+    background-color: black;
+}
+
+.pink-col{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+.green-col{
+    width: 500px;
+    height: 500px;
+    background-color: greenyellow;
+}
+
+/* FOOTER */
+
+.background-black{
+    background-color: black;
+}
+
+.red-col{
+    background-color: red;
+    width: 150px;
+    height: 200px;
+    align-items: stretch;
+}
+
+.col{
+    background-color: green;
+    width: 100px;
+    height: 200px;
+    align-items: stretch;
+}
+
+.footer-bar{
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+
 
