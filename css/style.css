@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* DEBUG */
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.raw{
+    display: flex;
+    padding: 10px;
+}
+
+/* HEADER*/
+
+.divisor-header{
+    justify-content: space-between;
+}
+.nav-bar{
+    justify-content: space-between;
+    background-color: orange;
+}
+
+header{
+    background-color: aquamarine;
+}
+
+/* MAIN
+
+.fist-section{
+    margin: 20px 100px;
+    background-color: blue;
+}
+
+.initial{
+    align-items: center;
+    justify-content: center;
+}
+
+.initial-item{
+    color: pink;
+} */
+
